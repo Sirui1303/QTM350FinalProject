@@ -36,6 +36,10 @@ As the research aims to analyze the effect of accents and speed on the accuracy 
 
 After downloading audio files from s3 bucket, we run the transcribe model using our generated audio file. We divided our audio files into two parts. In the first part, we choose files based on six different accents with five different versions of text. In the second parts, we choose files based on five different accents with five different versions of texts. We use five different versions of texts in order to avoid the bias caused by one certain type of text.  We use  loops to run the transcribe and extract data from the Transcribe model. The results are saved into the text lists which contain all converted versions of text after running the  Transcribe model.
 
+[accent text](audio-text/hypothesis/accent%20text.txt)
+
+[speed text](audio-text/hypothesis/speed%20text.txt)
+
 ## Word Error Rate Calculation
 [wer_calculation](notebook/wer_calculation.ipynb)
 
